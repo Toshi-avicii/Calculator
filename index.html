@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <h1>JS Calculator <i class="fas fa-calculator"></i></h1>
+    <section class="calculator">
+        <div class="calc-screen">
+            <div class="operand1"></div>
+            <div class="operand2"></div>
+        </div>
+        <div class="operation-container"></div>
+        <div class="keypad">
+            <button id="reset">C</button>
+            <button id="divide" class="operation-btn"><i class="fas fa-divide"></i></button>
+            <button id="multiply" class="operation-btn"><i class="fas fa-times"></i></button>
+            <button class="num-key seven" id="7">7</button>
+            <button class="num-key eight" id="8">8</button>
+            <button class="num-key nine" id="9">9</button>
+            <button class="operation-btn" id="subtract"><i class="fas fa-minus"></i></button>
+            <button class="num-key six" id="4">4</button>
+            <button class="num-key five" id="5">5</button>
+            <button class="num-key four" id="6">6</button>
+            <button class="operation-btn" id="sum"><i class="fas fa-plus"></i></button>
+
+            <button class="num-key three" id="1">1</button>
+            <button class="num-key two" id="2">2</button>
+            <button class="num-key one" id="3">3</button>
+            <button class="num-key zero" id="0">0</button>
+            <button class="num-key decimal" id=".">.</button>
+            <button class="backspace"><i class="fas fa-backspace"></i></button>
+            <button id="equalto"><i class="fas fa-equals"></i></button>
+        </div>
+    </section>     
+    <script src="app.js"></script>
+</body>
+</html>
